@@ -1,0 +1,39 @@
+.tree-view {
+	width: 820px;
+	background-color: white;
+	height: 720px;
+	float: left;
+}
+
+.tree-title {
+	width: 100%;
+	height: 30px;
+	line-height: 30px;
+	padding-left: 20px;
+	font-weight: bold;
+}
+
+.tree-value {
+	width: 100%;
+	height: 690px;
+	position: relative;
+	overflow: hidden;
+	/* background-color: red; */
+
+}
+
+path.zoom-out:hover {
+	fill: #1296db;
+}
+
+path.zoom-in:hover {
+	fill: #1296db;
+}
+
+path.locate-center:hover {
+	fill: #1296db;
+}
+
+path.reset:hover {
+	fill: #1296db;
+}

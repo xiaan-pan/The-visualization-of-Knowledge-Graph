@@ -1,0 +1,46 @@
+.console-view {
+    width:100%;
+    height: 300px;
+    border: 1px solid rgba(7, 118, 181, .5);
+	box-shadow: inset 0 0 10px rgba(7, 118, 181, .4);
+    float: left;
+}
+
+.console-title {
+    padding: 5px 10px 5px 25px;
+	border-bottom: 1px solid rgba(7, 118, 181, .7);
+	font-size: 15px;
+	font-weight: 500;
+	position: relative;
+
+}
+
+.console-title:before {
+    position: absolute;
+	content: "";
+	width: 6px;
+	height: 6px;
+	background: rgba(22, 214, 255, .9);
+	box-shadow: 0 0 5px rgba(22, 214, 255, .9);
+	border-radius: 10px;
+	left: 10px;
+	top: 13px;
+}
+
+.console-title:after{
+    width: 100%;
+	height: 1px;
+	content: "";
+	position: absolute;
+	left: 0;
+	bottom: -1px;
+	background: linear-gradient(to right, #076ead, #4ba6e0, #076ead);
+	box-shadow: 0 0 5px rgba(131, 189, 227, 1);
+	opacity: .6
+}
+
+.console-value {
+	/* background-color: red; */
+	width: 100%;
+	height: 269px;
+}
