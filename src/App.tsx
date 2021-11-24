@@ -63,7 +63,7 @@ class App extends Component <AppProps, AppState>{
 					<div className="logo" style={{
 						width: '100%',
 						height: '60px',
-						// backgroundColor: 'red'
+						backgroundColor: '#00446B'
 						// lineHeight: '60px',
 						// textAlign: 'center',
 						// fontSize: '17px'
@@ -94,10 +94,12 @@ class App extends Component <AppProps, AppState>{
 									lineHeight: '60px',
 									fontSize: '24px',
 									fontWeight: 'bold',
-									color: 'rgb(13,110,253)',
-									marginRight: '30px'
+									// color: 'rgb(13,110,253)',
+									color: 'white',
+									marginRight: '30px',
+									// backgroundColor: '#00446B'
 								}}>
-									知识工具
+									设备树
 								</div>
 							</React.Fragment> :
 							<React.Fragment>
@@ -159,7 +161,7 @@ class App extends Component <AppProps, AppState>{
 					</Menu>
 				</Sider>
 				<Layout className="site-layout" >
-					<Header className="site-layout-background"  style={{ padding: 0, backgroundColor:'white' }} >
+					<Header className="site-layout-background"  style={{ padding: 0, backgroundColor:'#066094' }} >
 					<Search placeholder="请输入查找的内容"  enterButton size='large' style={{
 						width: '400px',
 						marginTop: '10px',

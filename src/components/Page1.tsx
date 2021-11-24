@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import ConsoleView from './ConsoleView';
+import RadialTreeView from './RadialTreeView';
 import TreeView from './TreeView';
 
 
@@ -33,7 +34,8 @@ class Page1 extends Component <Page1Props, Page1State>{
                     marginLeft: '10px',
                     // backgroundColor: 'red'
                 }}>
-                    <TreeView />
+                    {/* <TreeView /> */}
+                    <RadialTreeView />
                 </div>
                 <div></div>
             </React.Fragment>
